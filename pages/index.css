@@ -5,7 +5,7 @@
 
 body {
    
-    background-image: url(../img/fon.jpg) top center #00125e fixed;
+    background: url(../img/fon.jpg) top center #00125e fixed;
     color: #006;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -102,7 +102,7 @@ body {
 
 .contact h2 {
     width: 400px;
-    margin-left: -300px;
+    margin-left: -350px;
 }
 
 form {
