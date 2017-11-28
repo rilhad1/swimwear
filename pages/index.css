@@ -97,7 +97,7 @@ body {
 
 .contact {
     padding: 100px;
-    background: url(/img/contact_opt.jpg) top;
+    background: url(../img/contact_opt.jpg) top;
 }
 
 .contact h2 {
