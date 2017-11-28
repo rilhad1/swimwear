@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-image: url(/img/fon.jpg);*/
+    /*background-attachment: fixed;*/
+    /*position: relative;*/
+    background: url(/img/fon.jpg) top center #00125e fixed;
+    color: #006;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#header {
+    margin: 10px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#header img {
+    margin: 25px 0px;
+}
+
+.nav {
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    background: url(../img/bg_menu.png)
+}
+
+.nav li {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav li a {
+    color: #FFF8DC;
+    text-decoration: none;
+}
+
+.center {
+    margin: 40px 0 40px 0;
+    padding: 10px 0 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.center>div>ul {
+    list-style-position: inside;
+
+}
+
+
+.center p {
+    text-indent: 35px;
+    margin: 15px 50px 0;
+    font-family: arial;
+    color: black;
+    line-height: 35px;
+}
+
+.center ul li {
+    text-indent: 35px;
+    margin: 15px 50px 0;
+    font-family: arial;
+    color: black;
+
+}
+
+.center img {
+    margin: 15px;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+#img-about {
+    max-width: 332px;
+    max-height: 470px;
+}
+
+.promo img {
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.contact {
+    padding: 100px;
+    background: url(/img/contact_opt.jpg) top;
+}
+
+.contact h2 {
+    width: 400px;
+    margin-left: -300px;
+}
+
+form {
+    margin: 30px 0 20px 20px;
+}
+
+form input {
+    outline: 0;
+    border-width: 0 0 2px 0;
+    width: 50%;
+    min-width: 300px;
+    margin: 10px;
+    padding: 5px 8px;
+    font-size: 14px;
+    color: black;
+    border-radius: 10px;
+    background: white;
+    resize: none;
+    overflow-y: hidden;
+}
