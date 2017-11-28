@@ -4,12 +4,8 @@
 }
 
 body {
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
-    /*background-image: url(/img/fon.jpg);*/
-    /*background-attachment: fixed;*/
-    /*position: relative;*/
-    background: url(../img/fon.jpg) top center #00125e fixed;
+   
+    background-image: url(../img/fon.jpg) top center #00125e fixed;
     color: #006;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -37,7 +33,7 @@ body {
     justify-content: space-around;
     list-style: none;
     align-items: center;
-    background: url(../img/bg_menu.png)
+    background-image: url(../img/bg_menu.png)
 }
 
 .nav li {
